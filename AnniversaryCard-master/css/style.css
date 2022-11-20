@@ -9,23 +9,7 @@ body {
   background: #E5E5E5;
   background-image: url("bg.jpg");
   /* background-position: center; */
-  background-size: 1920px 1080px;
-}
-.bg-image {
-  /* The image used */
-  background-image: url("photographer.jpg");
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1240px 1800px;
 }
 
 #card-front {
@@ -58,7 +42,7 @@ body {
 
 #card {
   width: 960px;
-  margin: auto;
+  margin: 100px 20px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-perspective: 5000px;
